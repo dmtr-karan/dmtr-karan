@@ -1,67 +1,49 @@
-# 👋 Hi, I'm Dimitrios Karanikolopoulos
+# 👋 Hi, I’m Dimitrios Karanikolopoulos
 
-**Experimental physicist & scientific software developer**  
-Focused on optical instrumentation, wavefront shaping, and control systems.
-
----
-
-## 🛠 Recent Work
-
-### [AI Interview Simulator](https://github.com/dmtr-karan/streamlit-interview-simulator)
-**📌 Streamlit-based interactive interview practice tool**
-
-- **Guided setup** (candidate profile + target role & company)
-- **Live chat interview** using OpenAI (streaming)
-- **Stop control**: button **and** `ESC` key with safe early-stop handling
-- **Post-interview feedback**: concise rubric with score + bullet insights
-- Deployed: **[Live App](https://app-interview-simulator-s7xbznmmq5uhrfukc4wyjf.streamlit.app/)**  
-- Built during the **AI Engineer Bootcamp 2025** (Python · Streamlit · OpenAI API)
-
-### [slm-phase-retrieval](https://github.com/dmtr-karan/slm-phase-retrieval)
-**📌 USB-controlled phase & amplitude retrieval for LCOS-SLM calibration**
-
-- Python interface for **Hamamatsu X15213** + **ORCA Flash v3** + **Thorlabs SC10**
-- Interferometric patch measurement · Correction mask application · Experimental validation
+Python Developer / Backend Engineer with a background in computational physics and automation. I build practical, testable Python systems (FastAPI, MongoDB, CI/CD) and user-facing AI workflows (Streamlit + OpenAI API).
 
 ---
 
-## ⚙️ Skills & Tools
+## Featured Projects
 
-- **Python** · NumPy · SciPy · Matplotlib · PIL  
-- **Hardware SDK Integration** (Hamamatsu, Thorlabs via USB)  
-- **cffi** · PyVISA · Threading · OpenCV  
-- **PyQt** (GUI design + device control)  
-- Git · Visual Studio · PyCharm · Jupyter
+### 🧙 D&D Concept-to-Build (Streamlit)
+**RP-first concept → playable build draft (SRD-only by default).**  
+- Streamlit chat app with prompt guardrails and SRD-only constraints (public-safe).
+- Optional Homebrew via UI toggle (homebrew is explicitly labeled).
+- Session persistence (local) + test suite (unit/contract).  
+Repo: https://github.com/dmtr-karan/dnd-concept-to-build
 
----
+### 🗃️ D&D SRD Mongo (Data pipeline + optional API)
+**SRD ingestion + validation pipeline for MongoDB, with CI artifacts.**  
+- JSON Schema validation + idempotent ingest patterns.
+- GitHub Actions pipelines for validation and artifact generation.
+- Optional SRD “grounding” API for downstream apps.  
+Repo: https://github.com/dmtr-karan/dnd-srd-mongo
 
-## 🔬 Projects in Progress
-
-- **slm-cam-gui-control**  
-  Real-time SLM and camera GUI built with PyQt and threaded device acquisition.  
-  *Ongoing cleanup of a lab acquisition tool; to be published.*
-
----
-
-## 📜 Certificates & Training
-
-### [AI Engineer Bootcamp 2025 – Udemy](https://www.udemy.com/certificate/UC-443b1121-1725-4ffe-9d27-648cfdbeddd0/)
-End-to-end **AI engineering** stack:
-- **Python programming**, **NLP in Python**
-- **LLMs & Transformers** (GPT, HuggingFace, BERT, XLNet)
-- **LangChain** for app orchestration
-- **Vector Databases (Pinecone)**
-- **Speech Recognition with Python**
+### ⚡ FastAPI Mini-Blog (API)
+**REST backend demonstrating auth + clean API design.**  
+- JWT auth flow (`/register`, `/token`) + protected routes.
+- Pydantic models and structured validation.
+Repo: https://github.com/dmtr-karan/fastapi-mini-blog
 
 ---
 
-## 🌍 About Me
+## Other Work
 
-📍 Based in Europe · Open to international opportunities  
-📫 Email: dmtr.karan@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/dimitrios-karanikolopoulos)  
-🔗 [ORCID](https://orcid.org/0000-0001-7938-6804)
+### 💬 Streamlit Interview Simulator
+Interactive OpenAI-powered interview practice app (streaming, stop control, feedback flow).  
+Repo: https://github.com/dmtr-karan/streamlit-interview-simulator
 
 ---
 
-Looking for opportunities to apply physics + Python in real-world research and tech environments.
+## Skills (short list)
+- **Python backend:** FastAPI, Pydantic, REST APIs, MongoDB, testing (pytest), CI/CD (GitHub Actions)
+- **AI workflows:** OpenAI API, prompt design/guardrails, Streamlit state & UX
+- **Automation background:** experiment/data workflows, reproducible pipelines
+
+---
+
+## Links
+- Email: dmtr.karan@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/dimitrios-karanikolopoulos  
+- ORCID: https://orcid.org/0000-0001-7938-6804
