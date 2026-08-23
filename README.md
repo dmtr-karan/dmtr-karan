@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Dimitrios Karanikolopoulos
 
-Python Developer / Backend Engineer with a background in computational physics and automation. I build practical, testable Python systems (FastAPI, MongoDB, CI/CD) and user-facing AI workflows (Streamlit + OpenAI API).
+Python Developer / Backend Engineer with a background in computational physics, automation, and scientific Python/Qt tooling. I build practical, testable Python systems (FastAPI, MongoDB, pytest, CI/CD) and user-facing AI workflows (Streamlit + OpenAI API).
 
 ---
 
@@ -28,6 +28,16 @@ Repo: https://github.com/dmtr-karan/fastapi-mini-blog
 
 ---
 
+## Open-source Contributions
+
+### 📈 PyQtGraph
+Contributed a focused bug fix to PyQtGraph, a scientific Python/Qt visualization library.  
+- Fixed a `FlowchartCtrlWidget.chartWidget()` name-shadowing issue.
+- Added a focused regression test and kept the public API behavior intact.
+- Merged PR: https://github.com/pyqtgraph/pyqtgraph/pull/3537
+
+--- 
+
 ## Other Work
 
 ### 💬 Streamlit Interview Simulator
@@ -38,6 +48,7 @@ Repo: https://github.com/dmtr-karan/streamlit-interview-simulator
 
 ## Skills (short list)
 - **Python backend:** FastAPI, Pydantic, REST APIs, MongoDB, testing (pytest), CI/CD (GitHub Actions)
+- **Scientific Python / Qt:** PyQtGraph, PyQt/PySide, GUI debugging, regression testing
 - **AI workflows:** OpenAI API, prompt design/guardrails, Streamlit state & UX
 - **Automation background:** experiment/data workflows, reproducible pipelines
 
